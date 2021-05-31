@@ -12,6 +12,7 @@ let wrapAdjective = function(style="*") {
   return function(adjective="special") {
     return `You are ${style}${adjective}${style}!`
   }
+<<<<<<< HEAD
 }
 
 const Calculator = {
@@ -37,4 +38,6 @@ let actionApplyer = function(start, ray) {
   }
 
   return a
+=======
+>>>>>>> 53a897f5580ff39feb6e8272c04e0392346e02dc
 }
